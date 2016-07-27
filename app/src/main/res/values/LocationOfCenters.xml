@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <array name="centers">
+        <item>Karvenagar</item>
+        <item>Koregaon Park</item>
+        <item>Hadapsar</item>
+        <item>FC Road</item>
+        <item>Warje</item>
+    </array>
+
+</resources>

@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Pizza</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_select_pizza">selectPizza</string>
+    <string name="title_activity_personal_info">personalInfo</string>
+    <string name="title_activity_summary">summary</string>
+</resources>

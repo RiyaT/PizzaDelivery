@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.android.application.pizza.personalInfo"
+    tools:showIn="@layout/activity_personal_info">
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Name"/>
+
+    <EditText
+        android:id="@+id/phno"
+        android:layout_margin="10dp"
+        android:layout_below="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:maxLength="10"
+        android:hint="Phone Number(10 digit)"
+        android:inputType="phone"/>
+
+    <EditText
+        android:id="@+id/addr"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_below="@+id/phno"
+        android:hint="Address"/>
+
+    <Button
+        android:id="@+id/curloc"
+        android:layout_below="@+id/addr"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="FETCH CURRENT LOCATION"
+        android:background="#002244"
+        android:textSize="20dp"
+        android:layout_margin="30dp"
+        android:textColor="#FFFFFF"/>
+
+    <Button
+        android:id="@+id/order"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/curloc"
+        android:layout_centerHorizontal="true"
+        android:text="Order"
+        android:background="#098765"
+        android:textColor="#000000"
+        android:textSize="20dp"
+        android:onClick="order"/>
+
+</RelativeLayout>
